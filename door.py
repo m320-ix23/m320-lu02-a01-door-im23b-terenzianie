@@ -20,7 +20,7 @@ class Door:
         # ein privates Attribut muss im Konstruktor initialisiert werden und ist dann in der Klasse
         # über self._name_des_Attributs ansprechbar.
         self._the_door_lock = ref2door_lock
-        # Hier wird der Setter eines Attributs aufgerufen (siehe unten)
+        # Hier wird der Setter eines Attributs aufgerufen  (siehe unten)
         self.color = base_color
         self._door_is_open = False
         self._door_is_locked = False
